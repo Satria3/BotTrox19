@@ -6,59 +6,59 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token="Eqt4hxAsQtv5a4lG4Pb2.o8LSrfCelHJhhggYpY3ECG.89tTjn7ar5yjjSmJ264c867m9A4BWxxm3qA6WDPfuQ0=")
+cl.login(token="Eqek1vC7KLnK4jsWnYb0.fGIUiExEjuE1/OChSHYIia.I+U46H+FbaNeyUFj6q8tYpNBQ7cKfoHlCQ972Cv50fg=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EqsBVdQi8OKTh3j6Mkx5.hSHvpJH1bE2GB8InsSg0vq.2ssZtwAkffmtOy9zrJCx0F8Gz1oV17cMQqtHU3B6fYY=")
+ki.login(token="Eqt4hxAsQtv5a4lG4Pb2.o8LSrfCelHJhhggYpY3ECG.89tTjn7ar5yjjSmJ264c867m9A4BWxxm3qA6WDPfuQ0=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EqCQV4Xbt7fHlhYgUBud.nI0+pkrzsIaJT928xZbUBq.AzE6+ebi0x+XnVazhYcPu9R9Fi+PKs9CKCKa4nAEA3Q=")
+kk.login(token="EqsBVdQi8OKTh3j6Mkx5.hSHvpJH1bE2GB8InsSg0vq.2ssZtwAkffmtOy9zrJCx0F8Gz1oV17cMQqtHU3B6fYY=")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="Eqixl8C941Gv5hRQQ1Oa.VSkC4kWnVqaJsixjMKNE/G.LZcRDlgubJxkwt6wssjfeXlOWiPDOhW6mUGoHlZK9mE=")
+kc.login(token="EqCQV4Xbt7fHlhYgUBud.nI0+pkrzsIaJT928xZbUBq.AzE6+ebi0x+XnVazhYcPu9R9Fi+PKs9CKCKa4nAEA3Q=")
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="Eq8a1kGdhzncFNclSwE8.aWOMtct5v8ZYoiURB63+6a.uXYoZThrYy/BE6ZtIYDK/P8fmAI7+yWy2PPsJ25a4Os=")
+kd.login(token="Eqixl8C941Gv5hRQQ1Oa.VSkC4kWnVqaJsixjMKNE/G.LZcRDlgubJxkwt6wssjfeXlOWiPDOhW6mUGoHlZK9mE=")
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token="EqinhCtJYhf2qsldL9Q8.jyCu5B2qelpygXkvspNkYa.clyuM1pLjwH/fW2K5peDhb5lO85xQ/Sy41aQMC4eUfc=")
+ke.login(token="Eq8a1kGdhzncFNclSwE8.aWOMtct5v8ZYoiURB63+6a.uXYoZThrYy/BE6ZtIYDK/P8fmAI7+yWy2PPsJ25a4Os=")
 ke.loginResult()
 
 kf = LINETCR.LINE()
-kf.login(token="EqDmLkbl9sozzKSc0Ceb.PpTPPNkiz0/ZXpxswLg6EW.nFxDdd/hTkAH+KyR1JfYmbgoFnLGxwNt31pQ+Ju7TN4=")
+kf.login(token="EqinhCtJYhf2qsldL9Q8.jyCu5B2qelpygXkvspNkYa.clyuM1pLjwH/fW2K5peDhb5lO85xQ/Sy41aQMC4eUfc=")
 kf.loginResult()
 
 kg = LINETCR.LINE()
-kg.login(token="EqTakwU1uEsY3ySmze1a.90Ymb9xHHHXgqdGq7WeeYG.ZCCfUj6Arr12rWMUXfleBPkJ3+8jNdT+/ZWYY5tPv8k=")
+kg.login(token="EqDmLkbl9sozzKSc0Ceb.PpTPPNkiz0/ZXpxswLg6EW.nFxDdd/hTkAH+KyR1JfYmbgoFnLGxwNt31pQ+Ju7TN4=")
 kg.loginResult()
 
 kh = LINETCR.LINE()
-kh.login(token="Eq1OrNXVRXW8Y7KQcu46.mfwViEizEjvKk9PbUJ6yjG.KajgT+AHqLQGyvwe+H3kRcx+XOSuxSzT/zrNIzZDmbA=")
+kh.login(token="EqTakwU1uEsY3ySmze1a.90Ymb9xHHHXgqdGq7WeeYG.ZCCfUj6Arr12rWMUXfleBPkJ3+8jNdT+/ZWYY5tPv8k=")
 kh.loginResult()
 
 kj = LINETCR.LINE()
-kj.login(token="EqHeBRhevhJBZ8bdwWy0.uNIkKz2Tzq0urveBoSIbia.W/1/YdnOUV9NQ0zgSg0yCp8MAx+c6WgHSqTbvS40kZA=")
+kj.login(token="Eq1OrNXVRXW8Y7KQcu46.mfwViEizEjvKk9PbUJ6yjG.KajgT+AHqLQGyvwe+H3kRcx+XOSuxSzT/zrNIzZDmbA=")
 kj.loginResult()
 
 kl = LINETCR.LINE()
-kl.login(token="EqmauVbDvjiV3G9gHHU5.TCxcnvx1VdTqxQ1T7ry7vq.OWIl9oludwMJYwgFNb2YkpIisKZIR6pxbrCGoUOuDQs=")
+kl.login(token="EqHeBRhevhJBZ8bdwWy0.uNIkKz2Tzq0urveBoSIbia.W/1/YdnOUV9NQ0zgSg0yCp8MAx+c6WgHSqTbvS40kZA=")
 kl.loginResult()
 
 km = LINETCR.LINE()
-km.login(token="EqDwDPBRZITDe7TDdI61.xu+pRemObjXCqJHhZX8tqq.O0f7mBKR3LxRmcOfDOOr2BKs/n3a6DGx5/hLC8UfVe4=")
+km.login(token="EqjlWm3gNFKTFTzG1sE7.hgAoElacI+4QXk31DxNGPW.wujSsr+R0kfUTMuHQid5XqzqmrnZoX/C53KoHNU3Z3g=")
 km.loginResult()
 
 kn = LINETCR.LINE()
-kn.login(token="Eqt4hxAsQtv5a4lG4Pb2.o8LSrfCelHJhhggYpY3ECG.89tTjn7ar5yjjSmJ264c867m9A4BWxxm3qA6WDPfuQ0=")
+kn.login(token="EqmauVbDvjiV3G9gHHU5.TCxcnvx1VdTqxQ1T7ry7vq.OWIl9oludwMJYwgFNb2YkpIisKZIR6pxbrCGoUOuDQs=")
 kn.loginResult()
 
 ko = LINETCR.LINE()
-ko.login(token="EqsBVdQi8OKTh3j6Mkx5.hSHvpJH1bE2GB8InsSg0vq.2ssZtwAkffmtOy9zrJCx0F8Gz1oV17cMQqtHU3B6fYY=")
+ko.login(token="EqDwDPBRZITDe7TDdI61.xu+pRemObjXCqJHhZX8tqq.O0f7mBKR3LxRmcOfDOOr2BKs/n3a6DGx5/hLC8UfVe4=")
 ko.loginResult()
 
 kp = LINETCR.LINE()
@@ -221,9 +221,7 @@ autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Jmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid]
 admin = ["u1608ae21e5de2547b5fa8707b21ca220"]
-owner = ["u1608ae21e5de2547b5fa8707b21ca220"
-
-
+owner = ["u1608ae21e5de2547b5fa8707b21ca220"]
 wait = {
     'contact':False,
     'autoJoin':False,
@@ -2185,7 +2183,7 @@ def bot(op):
                     cl.sendText(msg.to,msg.text)
             elif msg.text is None:
                 return
-            elif msg.text in ["Key","key"]:
+            elif msg.text in ["Key","key","Help"]:
                 print "\nHelp pick up..."
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to, helpMessage + "")
@@ -4016,6 +4014,10 @@ def bot(op):
 					time.sleep(0.01)
 					kj.acceptGroupInvitationByTicket(msg.to,Ticket)
 					time.sleep(0.01)
+					kl.acceptGroupInvitationByTicket(msg.to,Ticket)
+					time.sleep(0.01)
+					km.acceptGroupInvitationByTicket(msg.to,Ticket)
+					time.sleep(0.01)
 					kn.acceptGroupInvitationByTicket(msg.to,Ticket)
 					time.sleep(0.01)
 					ko.acceptGroupInvitationByTicket(msg.to,Ticket)
@@ -4096,7 +4098,7 @@ def bot(op):
                   ke.updateGroup(G)
                   print "Kicker2_Ok!"
                   Ticket = ke.reissueGroupTicket(msg.to)
-            elif msg.text in ["Sayang"]:
+            elif msg.text in ["Sayang "]:
                   X = cl.getGroup(msg.to)                    
                   X.preventJoinByTicket = False
                   cl.updateGroup(X)
@@ -4652,7 +4654,7 @@ def bot(op):
                 start = time.time()
                 cl.sendText(msg.to, "Access time Waiting...")
                 elapsed_time = time.time() - start
-                cl.sendText(msg.to, "%s<==👉Shandy 😈 Server Lemah" % (elapsed_time))
+                cl.sendText(msg.to, "%s<==👉BotTrox 😈 Server Lemah" % (elapsed_time))
 
 # ----------------- BAN MEMBER BY TAG 2TAG ATAU 10TAG MEMBER
             elif ("Bl " in msg.text):
@@ -4710,7 +4712,7 @@ def bot(op):
 						cont.to = msg.to
 						cl.sendMessage(cnt)
 					
-            elif msg.text in ["Mentionall"]:
+            elif msg.text in ["Mention"]:
                 if msg.toType == 2:
                     group = cl.getGroup(msg.to)
                     name = [contact.mid for contact in group.members]
